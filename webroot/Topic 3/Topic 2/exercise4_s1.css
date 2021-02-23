@@ -1,0 +1,46 @@
+* {
+    background-color: blue;
+}
+#title {
+color: gold;
+background-color: black;
+}
+
+a:link{
+    text-decoration: underline;
+    color: goldenrod;
+  }
+  a:visited{
+    text-decoration: underline;
+    color: royalblue;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-weight: bold;
+    background-color: tomato;
+  }
+
+  .p1 {
+      color: blanchedalmond;
+      background-color: navy;
+      font-family: fantasy;
+  }
+
+  .p2 {
+      color: antiquewhite;
+      background-color: navy;
+      font-size: medium;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border: solid navy 2em;
+  }
+
+  [title] {
+      border: solid darkblue 3em;
+      padding: 0.3em;
+  }
+
+  [footer] {
+      border: solid darkblue 3em;
+  }
