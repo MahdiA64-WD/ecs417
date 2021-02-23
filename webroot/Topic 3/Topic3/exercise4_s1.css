@@ -1,0 +1,45 @@
+
+#title {
+color: gold;
+background-color: black;
+}
+
+a:link{
+    text-decoration: underline;
+    color: goldenrod;
+  }
+  a:visited{
+    text-decoration: underline;
+    color: goldenrod;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-weight: bold;
+    background-color: tomato;
+  }
+
+  .p1 {
+    color: blanchedalmond;
+    background-color: navy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.p2 {
+    color: antiquewhite;
+    background-color: navy;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+[title] {
+    border: solid black 1em;
+    padding: 0.3em;
+}
+
+[nav] {
+  border: solid navy 1em;
+  color: yellow;
+  background-color: aqua;
+}
+
+  
