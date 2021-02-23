@@ -1,0 +1,21 @@
+#title {
+color: gold;
+background-color: black;
+}
+
+a:link{
+    text-decoration: underline;
+    color: goldenrod;
+  }
+  a:visited{
+    text-decoration: underline;
+    color: royalblue;
+  }
+  a:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-weight: bold;
+    background-color: tomato;
+  }
+
+  
