@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<HTML>
+<meta charset="UTF 8">
+<form method="POST" action="process.php">
+    <fieldset>
+        <legend>Shirt Order Form</legend>
+        <p>
+        <label>Shirt Size</label>
+        <br>
+        <select name="Shirt Size">
+            <option value="0" unchecked>Choose Size</option>
+            <option value="1">XS</option>
+            <option value="2">S</option>
+            <option value="3">M</option>
+            <option value="4">L</option>
+            <option value="5">XL</option>
+          </select>
+        </p>
+        <p>
+        <label>Sleeves</label>
+        <br>
+        <input type="radio" name="sleeve" value="1" checked>Short<br>
+        <input type="radio" name="sleeve" value="2">Long
+        </p>
+        <p>
+            <label>Choose Shirt Colour</label>
+            <input type="color" name="colorChoice">
+        </p>
+        <p>
+            <label>Quantity</label>
+            <input type="number" min="1" max="10" name="quantity">
+        </p>
+        <p>
+            <label>Date Requested</label>
+            <input type="date" name="date">
+        </p>
+        <p>
+            <label>Name</label>
+            <br>
+            <input type="text" name="name">
+        </p>
+        <p>
+            <label>Email Address</label>
+            <br>
+            <input type="email" name="email address">
+        </p>
+        <p>
+            <label>Telephone Number</label>
+            <br>
+            <input type="tel" name="telephone number" pattern=": {44}-{207}-{882}-{1234}">
+            <small>Example : 44-207-882-1234</small>
+        </p>
+        <p>
+            <label>Address</label>
+            <br>
+            <input type="text" name="address">
+        </p>
+        <p>
+            <label>City</label>
+            <br>
+            <input type="text" name="city" list="cities">
+            <datalist id="cities">
+            <option>Calcutta</option>
+            <option>London</option>
+            <option>Los Angeles</option>
+            <option>New York</option>
+            </datalist>
+        </p>
+        <p>
+            <label>Postcode</label>
+            <br>
+            <input type="text">
+        </p>
+        <p>
+            <label>Please keep me informed about future designs</label>
+            <input type="checkbox" name="accept">
+        </p>
+        <input type="submit"> <input type="reset" value="Clear Form">
+        </fieldset>
+</form>
+</HTML>
