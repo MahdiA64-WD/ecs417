@@ -1,10 +1,12 @@
 <!DOCTYPE HTML>
 <HTML>
 <meta charset="UTF 8">
-<form method="POST" action="process.php">
+<link rel="stylesheet" href="Exercise4Topic4.css" type="text/css">
+<form method="GET" action="process.php">
     <fieldset>
-        <legend>Shirt Order Form</legend>
+       <header><legend>Shirt Order Form</legend></header> 
         <p>
+        <div>    
         <label>Shirt Size</label>
         <br>
         <select name="Shirt Size">
@@ -34,7 +36,9 @@
             <label>Date Requested</label>
             <input type="date" name="date">
         </p>
+    </div>
         <p>
+            <div>
             <label>Name</label>
             <br>
             <input type="text" name="name">
@@ -50,7 +54,9 @@
             <input type="tel" name="telephone number" pattern=": {44}-{207}-{882}-{1234}">
             <small>Example : 44-207-882-1234</small>
         </p>
+    </div>
         <p>
+            <div>
             <label>Address</label>
             <br>
             <input type="text" name="address">
@@ -71,11 +77,14 @@
             <br>
             <input type="text">
         </p>
+    </div>
         <p>
+            <footer>
             <label>Please keep me informed about future designs</label>
             <input type="checkbox" name="accept">
         </p>
-        <input type="submit"> <input type="reset" value="Clear Form">
+        <input type="submit" class="button"> <input type="reset" value="Clear Form" class="button">
+        </footer>
         </fieldset>
 </form>
 </HTML>
