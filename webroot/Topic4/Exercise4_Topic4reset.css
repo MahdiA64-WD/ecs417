@@ -1,3 +1,9 @@
-border {
-    background-color: aliceblue;
-}
+html, p, div, footer, label, legend, form, select, option {
+    font-size: 100%;
+    margin: 0;
+    border: 0;
+    width: 0;
+    text-align: initial;
+    background-color: 0;
+    color: 0;
+} 
