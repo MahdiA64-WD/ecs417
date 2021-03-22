@@ -1,0 +1,10 @@
+figure, .titles, .aside1, .aside2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: unset;
+    font-family: 0;
+    font-weight: 0;
+    font-size: 0;
+    float: 0;
+}
