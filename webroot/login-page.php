@@ -1,7 +1,8 @@
 <?php
-$user = "Mahdi123";
-$psw = "Mahdi123";
-$host = "openshift";
+$dbusername = "Mahdi123";
+$dbpassword = "Mahdi123";
+$dbhost = "openshift";
+$dbname = "ecs417";
 ?>
 
 <!DOCTYPE html>
