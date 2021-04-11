@@ -1,9 +1,3 @@
-<?php
-$dbusername = "Mahdi123";
-$dbpassword = "Mahdi123";
-$dbhost = "openshift";
-$dbname = "ecs417";
-?>
 
 <!DOCTYPE html>
 <html>
