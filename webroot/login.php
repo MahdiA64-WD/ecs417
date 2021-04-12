@@ -16,7 +16,7 @@ session_start();
 
 			//read from database
 			$query = "SELECT * FROM USERS WHERE username = '$user_name'";
-			$result = mysqli_query($con, $query);
+			$result = mysqli_query($conn, $query);
 
 			if($result)
 			{
