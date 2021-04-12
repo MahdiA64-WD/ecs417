@@ -30,7 +30,7 @@ session_start();
 					{
 
 						$_SESSION['user_id'] = $user_data['user_id'];
-						header("Location: startpage.php");
+						header("Location: index.php");
 						die;
 					}
 				}
@@ -65,6 +65,8 @@ session_start();
     <input type="password" placeholder="Enter Password" name="password" required>
         
     <button type="submit">Login</button> 
+    <a href="signup.php">Click to Signup</a><br><br>
+
   </div>
 </form>
 </html>
