@@ -11,7 +11,6 @@
         <ul>
             <li><a class="active" href="homepage.html">Home</a></li>
             <li><a href="login.php">Login</a></li>
-            <li><a href="blog-form.html">Blog</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
           </ul>
     </head>
