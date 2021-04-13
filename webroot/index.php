@@ -12,6 +12,7 @@
             <li><a class="active" href="homepage.html">Home</a></li>
             <li><a href="login.php">Login</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="university.html">University</a></li>
           </ul>
     </head>
     <body>
