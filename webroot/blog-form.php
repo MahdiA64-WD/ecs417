@@ -24,5 +24,6 @@
                 <footer script src = blogform.js>
             </p>
             <input type="submit" class="button" value="Submit" id="submitButton" onclick="return validateForm()">   <input type="button" onclick="myFunction()" value="Clear Form" class="button"></button>
+	        <a href="index.php">Return to index</a>
             </footer>
 </HTML>    
