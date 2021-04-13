@@ -64,7 +64,7 @@ session_start();
     <input type="password" placeholder="Enter Password" name="password" required>
         
     <button type="submit">Login</button> 
-    <a href="signup.php">Click to Signup</a><br><br>
+    
 
   </div>
 </form>
